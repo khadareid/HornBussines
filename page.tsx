@@ -45,7 +45,6 @@ export default function HornBusinessSolution() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Handle dark mode toggle
   useEffect(() => {
     // Check for user preference
     const savedTheme = localStorage.getItem("theme");
